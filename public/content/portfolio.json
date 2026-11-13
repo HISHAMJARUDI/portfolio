@@ -1,0 +1,95 @@
+﻿{
+    "profile":  {
+                    "name":  "Hisham Jarudi",
+                    "greeting":  "Hello, I\u0027m",
+                    "title":  "AI Engineer \u0026 Data Scientist",
+                    "tagline":  "Building intelligent solutions for a data-driven world.",
+                    "bio":  "I build intelligent solutions using data science, machine learning, and modern web technologies.",
+                    "email":  "you@example.com",
+                    "github":  "https://github.com/",
+                    "linkedin":  "https://www.linkedin.com/"
+                },
+    "about":  {
+                  "heading":  "About Me",
+                  "description":  "I am passionate about artificial intelligence, data analysis, software development, and creating practical solutions to real-world problems."
+              },
+    "skills":  [
+                   {
+                       "id":  1,
+                       "name":  "Python",
+                       "category":  "Programming"
+                   },
+                   {
+                       "id":  2,
+                       "name":  "Machine Learning",
+                       "category":  "Artificial Intelligence"
+                   },
+                   {
+                       "id":  3,
+                       "name":  "SQL",
+                       "category":  "Data"
+                   },
+                   {
+                       "id":  4,
+                       "name":  "React",
+                       "category":  "Web Development"
+                   },
+                   {
+                       "id":  5,
+                       "name":  "Data Visualization",
+                       "category":  "Analytics"
+                   },
+                   {
+                       "id":  6,
+                       "name":  "Git \u0026 GitHub",
+                       "category":  "Development Tools"
+                   }
+               ],
+    "projects":  [
+                     {
+                         "id":  1,
+                         "title":  "Machine Learning Project",
+                         "description":  "A predictive machine learning solution designed to analyze patterns and generate insights.",
+                         "technologies":  [
+                                              "Python",
+                                              "Scikit-learn",
+                                              "Pandas"
+                                          ],
+                         "github":  "",
+                         "demo":  ""
+                     },
+                     {
+                         "id":  2,
+                         "title":  "Data Analytics Dashboard",
+                         "description":  "An interactive dashboard for exploring and visualizing data.",
+                         "technologies":  [
+                                              "Python",
+                                              "SQL",
+                                              "Visualization"
+                                          ],
+                         "github":  "",
+                         "demo":  ""
+                     },
+                     {
+                         "id":  3,
+                         "title":  "My New AI Project",
+                         "description":  "An intelligent application built with Python.",
+                         "technologies":  [
+                                              "Python",
+                                              "AI",
+                                              "Streamlit"
+                                          ],
+                         "github":  "",
+                         "demo":  ""
+                     }
+                 ],
+    "experience":  [
+                       {
+                           "id":  1,
+                           "role":  "Your Professional Role",
+                           "organization":  "Organization Name",
+                           "period":  "2026 - Present",
+                           "description":  "Describe your responsibilities, achievements, or training."
+                       }
+                   ]
+}

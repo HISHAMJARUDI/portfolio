@@ -1,0 +1,135 @@
+﻿.media-upload {
+  margin: 24px 0;
+  padding: 22px;
+  border: 1px dashed #365369;
+  background: #0d1c2d;
+  border-radius: 12px;
+}
+
+.media-label {
+  display: block;
+  color: #edf6fa;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.media-upload input[type="file"] {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  color: #b8c8d9;
+  font-size: 13px;
+}
+
+.media-upload input[type="file"]::file-selector-button {
+  background: #5de1df;
+  color: #07111d;
+  border: 0;
+  border-radius: 7px;
+  padding: 11px 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-right: 14px;
+}
+
+.media-preview {
+  display: block;
+  width: min(100%, 320px);
+  max-height: 240px;
+  object-fit: contain;
+  border: 1px solid #345166;
+  border-radius: 9px;
+  margin-bottom: 18px;
+  background: #101a2b;
+}
+
+.media-link {
+  display: inline-block;
+  color: #5de1df;
+  margin-bottom: 16px;
+  text-decoration: underline;
+}
+
+.media-hint {
+  color: #91a8bc;
+  font-size: 12px;
+  margin: 13px 0 0;
+}
+
+.media-message {
+  color: #8be8df;
+  font-size: 13px;
+  line-height: 1.6;
+  margin-top: 12px;
+}
+
+@media (max-width: 650px) {
+  .media-upload {
+    padding: 16px;
+  }
+
+  .media-upload input[type="file"]::file-selector-button {
+    display: block;
+    margin-bottom: 12px;
+  }
+}
+
+/* Media uploader improvements */
+
+.media-current,
+.media-selected {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.media-current a {
+  color: #5de1df;
+  text-decoration: underline;
+}
+
+.media-picker {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #d9eaf4;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.media-picker input {
+  max-width: 100%;
+}
+
+.media-upload-button {
+  background: #5de1df;
+  color: #07111d;
+  border: 0;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.media-remove {
+  background: transparent;
+  color: #fda4af;
+  border: 1px solid #9f354c;
+  border-radius: 7px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.media-upload-button:disabled,
+.media-remove:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.media-selected > p {
+  color: #a5b9cb;
+  font-size: 13px;
+}
